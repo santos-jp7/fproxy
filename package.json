@@ -1,0 +1,19 @@
+{
+  "name": "myssh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "start": "node index.js"
+  },
+  "author": "Pierre",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http-parser-js": "^0.5.2",
+    "http-request-parser": "^2.0.0-alpha",
+    "http-string-parser": "0.0.6",
+    "ssh2": "^0.8.9"
+  }
+}
